@@ -2,9 +2,6 @@
   "name": "trading-bot",
   "version": "0.3.0",
   "description": "Steal My Cryptocurrency Trading Bot!",
-  "engines": {
-    "node": "10.x"
-  },
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -21,7 +18,9 @@
     "lodash": "^4.17.15",
     "moment": "^2.25.3",
     "moment-timezone": "^0.5.28",
-    "numeral": "^2.0.6"
+    "numeral": "^2.0.6",
+    "web3": "^1.7.3",
+    "web3-utils": "^1.7.3"
   },
   "devDependencies": {
     "request": "^2.81.0"
